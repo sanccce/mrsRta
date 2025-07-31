@@ -1,0 +1,112 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Karma", sans-serif;
+}
+.w3-bar-block .w3-bar-item {
+  padding: 20px;
+}
+.hider4:hover {
+  color: blue;
+}
+.hider5:hover {
+  color: blue;
+}
+.hider4,
+.hider5 {
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
+  color: transparent;
+}
+.cont {
+  margin-left: 20px;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  color: darkgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#about h2 {
+  color: darkgreen;
+}
+#contact {
+  color: darkgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hiding {
+  transform: translateY(-50px);
+}
+.hamburger {
+  display: none;
+}
+.hidden {
+  display: block;
+}
+.company {
+  top: 0;
+  height: 30px;
+  margin-bottom: 30px;
+}
+.company h1 {
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 0%;
+    color: blue;
+  }
+  to {
+    margin-left: 40%;
+    color: red;
+  }
+}
+.company p {
+  font-size: small;
+  margin-bottom: 0;
+  text-align: center;
+  color: darkgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.company h6 {
+  font-family: cursive;
+  text-align: center;
+  padding-top: 0;
+  animation: 3s linear 1s infinite alternate slide-in;
+}
+.hidden h2 {
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
+  color: transparent;
+}
+.hidden h2:hover {
+  color: blue;
+}
+.img-size {
+  height: 65vh;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.nav-class {
+  background-color: black;
+  color: white;
+}
+#food {
+  margin-top: 40px;
+}
+#food h3 {
+  color: cornflowerblue;
+}
+footer {
+  color: darkgrey;
+}
